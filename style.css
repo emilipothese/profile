@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+body {
+  background-color: #BAC7CA;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #37515F;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+h1, h2, h3 {
+  color: #E4959E;
+  font-weight: 700;
+  line-height: 1;
+}
+
+h1{
+  font-size: 32px;
+}
+
+h2{
+  font-size: 24px;
+  color: #E4959E;
+}
+
+li {
+  color: #F3B3A6;
+  font-size: 48px;
+}
+
+li:hover {
+  color: #E4959E;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(55,81,95,0.4);
+  padding: 30px;
+  margin: 20px 0;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-profile {
+  width: 150px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn {
+  background: #F3B3A6;
+  padding: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #E4959E;
+}
+
+.card p {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
